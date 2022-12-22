@@ -1,0 +1,101 @@
+[
+  {
+    "category": "mobiles",
+    "lists": [
+      {
+        "id": "m-1",
+        "name": "samsung M1",
+        "modelName": "s8+",
+        "warranty": "2 years",
+        "price": 45000,
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi0.wp.com%2Fwww.techclickr.com%2Fwp-content%2Fuploads%2F2015%2F04%2Fsamsung-galaxy-s-duos.jpg%3Fw%3D1357%26ssl%3D1&f=1&nofb=1&ipt=f546cc366f326a871991cb2e08ef41f294974491335b419ce831d2445a06d98b&ipo=images",
+        "quantityPurchased": 0
+      },
+      {
+        "id": "m-2",
+        "name": "samsung S2",
+        "modelName": "s8+",
+        "warranty": "2 years",
+        "price": 45000,
+        "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.blog.sagmart.com%2Fwp-content%2Fuploads%2F2012%2F12%2FGalaxy-S3-Samsung-Mobile.jpg&f=1&nofb=1&ipt=e8850d6626f4aa9ade5cc42dd128b965932c54bd53266ca7f58ac237a7c2631d&ipo=images",
+        "quantityPurchased": 0
+      },
+      {
+        "id": "m-3",
+        "name": "samsung Z4",
+        "modelName": "s8+",
+        "warranty": "2 years",
+        "price": 45000,
+        "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F3.bp.blogspot.com%2F_NvQB6M5es8g%2FS7CCigYiJ5I%2FAAAAAAAAAHs%2FRcFdRnxL2dM%2Fs1600%2Fsamsung-star.jpg&f=1&nofb=1&ipt=a02c31a892c9a739d43863fc7ace1fcbc1912e3de2d8dddad96f1b4b66e03aca&ipo=images",
+        "quantityPurchased": 0
+      }
+    ]
+  },
+  {
+    "category": "books",
+    "lists": [
+      {
+        "id": "b-1",
+        "bookTag": "java",
+        "name": "the complete reference",
+        "authorName": "herbert shildit",
+        "edition": "2016",
+        "price": 450,
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.neh.gov%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Ffeatured_image_page%2Fpublic%2F2018-06%2Fopenbooks.jpg%3Fh%3Db69e0e0e%26itok%3D06BUz0mY&f=1&nofb=1&ipt=44cda8e23dfda10ef1926a6f336b7db73dad34f903d95e3c3c9cba11ebe87d2e&ipo=images",
+        "quantityPurchased": 0
+      },
+      {
+        "id": "b-2",
+        "bookTag": "dataStructure",
+        "name": "getting started with data structure",
+        "authorName": "adam kooper",
+        "edition": "2017",
+        "price": 500,
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.vM2mWOEmXMVg5abZCe2tawHaE7%26pid%3DApi&f=1&ipt=803fd96dcff3dd013458436a80bdf6c00eaa084a6a5a2cf7eaed99bfbce014e8&ipo=images",
+        "quantityPurchased": 0
+      },
+      {
+        "id": "b-3",
+        "bookTag": "javascript",
+        "name": "javascript :novice to ninja",
+        "authorName": "herbert shildit",
+        "edition": "2016",
+        "price": 350,
+        "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.clipartpanda.com%2Fschool-books-images-books.png&f=1&nofb=1&ipt=dcb9034f83ae3787827957745863aa8a313f24cb919df9c517c4e9e894d1046c&ipo=images",
+        "quantityPurchased": 0
+      }
+    ]
+  },
+  {
+    "category": "shoes",
+    "lists": [
+      {
+        "id": "s-1",
+        "name": "nike",
+        "color": "white",
+        "type": "casual",
+        "price": 4500,
+        "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngall.com%2Fwp-content%2Fuploads%2F2016%2F06%2FAdidas-Shoes-Free-PNG-Image-180x180.png&f=1&nofb=1&ipt=f4df4fb4ad7e4fcb7d14b9b1e0b853f6b1962dceb46887a6226e6c1d9ead8cb2&ipo=images  ",
+        "quantityPurchased": 0
+      },
+      {
+        "id": "s-2",
+        "name": "adidas",
+        "color": "brown",
+        "type": "sports",
+        "price": 4300,
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi5.walmartimages.com%2Fasr%2F00718c39-a8f6-4b90-b7bf-6ddd758b6f16.1de2a7c13d9398d515cccff47074a18f.jpeg%3FodnHeight%3D180%26odnWidth%3D180%26odnBg%3Dffffff&f=1&nofb=1&ipt=a054b598e81787ae56fd9128269c9bcb6e00700727a3485f4f7765aac1262170&ipo=images",
+        "quantityPurchased": 0
+      },
+      {
+        "id": "s-3",
+        "name": "sparks",
+        "color": "blue",
+        "type": "sports",
+        "price": 3000,
+        "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.comparestoreprices.co.uk%2Fimages%2Fhu%2Fhudson-shoes-hudson-sunseeker-navy-deck-shoe.jpg&f=1&nofb=1&ipt=030b611780e1c19df6b3f5a355afd996aa0061fcc09bd8ededf7f3cce8994ed4&ipo=images",
+        "quantityPurchased": 0
+      }
+    ]
+  }
+]
