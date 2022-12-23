@@ -5,8 +5,37 @@ import productsData from "../../mockData/productsData.json";
 import ProductCard from "./productCard";
 import { Typography } from "@mui/material";
 
-const ProductScreen = () => {
+const ProductScreen = ({ search }) => {
   const [products, setProducts] = useState(productsData);
+
+  useEffect(() => {
+    if (!search) {
+      setProducts(productsData);
+      return;
+    }
+    const filteredProducts = [];
+    let baseIndex = 0;
+    productsData.forEach((productObj) => {
+      const { lists, category } = productObj;
+      let itemExists = false;
+      lists.forEach((listItemObj) => {
+        if (listItemObj.name.includes(search)) {
+          itemExists = true;
+          if (!filteredProducts[baseIndex]) {
+            filteredProducts[baseIndex] = {};
+            filteredProducts[baseIndex].lists = [];
+          }
+          filteredProducts[baseIndex].category = category;
+          filteredProducts[baseIndex].lists.push(listItemObj);
+        }
+      });
+      if (itemExists) baseIndex++;
+    });
+    setProducts(filteredProducts);
+  }, [search]);
+
+  // filterProducts[baseIndex] = undefined
+  // undefined.category = error
 
   const handleAddProduct = (id) => {
     console.log("Adding new product");
